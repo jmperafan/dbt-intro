@@ -34,17 +34,20 @@ List of contents:
 
 ![Screenshot 2022-04-25 at 22 34 56](https://user-images.githubusercontent.com/77925576/165170378-c7ed628d-4f5c-4d30-be2c-0aaca3ae08a1.png)
 
-4. Click on New Notebook located in the topbar and then "Customize..."
+3. Click on New Notebook located in the topbar and then "Customize..."
 ![Screenshot 2022-04-25 at 22 33 26](https://user-images.githubusercontent.com/77925576/165170160-a08af36a-d022-4c5d-b5cd-a181576a6f76.png)
 
-5. Type notebook name (preferrably your name). In environment section, choose Debian 10 and "Custom container" 
+4. Type notebook name (preferrably your name). In environment section, choose Debian 10 and "Custom container".
+
+5. Change the region to `europe-west3`. Creating your notebook in regions outside Europe might cause some issues.
+
 6. Provide link to the image: gcr.io/getindata-images-public/jupyterlab-dataops:bigquery-1.0.5
 ![Screenshot 2022-04-25 at 22 42 09](https://user-images.githubusercontent.com/77925576/165171403-93633875-3f5c-429c-a40a-014a863cd10d.png)
 
-8. In machine configuration section, choose n1-standard-2 machine 2vCPU/7.5GB RAM (~0.074 USD / hour)
+8. In machine configuration section, choose n1-standard-2 machine 2vCPU/7.5GB RAM (~0.074 USD / hour).
 9. Leave everything else on default.
 10. Create Jupyter notebook.
-11. Wait until it's configured and click on Open Jupyterlab
+11. Wait until it's configured and click on Open Jupyterlab.
 
 You can find full documentation of our GID Data Platform Tool on https://github.com/getindata/data-pipelines-cli and also https://data-pipelines-cli.readthedocs.io/en/latest/index.html
 
